@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset='utf-8' />
+<link href='packages/core/main.css' rel='stylesheet' />
+<link href='packages/daygrid/main.css' rel='stylesheet' />
+<link href='packages/list/main.css' rel='stylesheet' />
+<script src='packages/core/main.js'></script>
+<script src='packages/interaction/main.js'></script>
+<script src='packages/daygrid/main.js'></script>
+<script src='packages/list/main.js'></script>
+<script src='packages/google-calendar/main.js'></script>
+    <link rel="stylesheet" href="packages/css/estilos.css">
+<script>
+
+  document.addEventListener('DOMContentLoaded', function() {
+    var calendarEl = document.getElementById('calendar');
+
+    var calendar = new FullCalendar.Calendar(calendarEl, {
+      plugins: [ 'interaction', 'dayGrid' ],
+      defaultDate: '2019-03-12',
+      editable: true,
+      eventLimit: true, // allow "more" link when too many events
+      events: [
+        {
+          title: 'All Day Event',
+          start: '2019-04-01'
+        },
+        {
+          title: 'Long Event',
+          start: '2019-04-07',
+          end: '2019-04-10'
+        },
+        {
+          groupId: 999,
+          title: 'Repeating Event',
+          start: '2019-03-09T16:00:00'
+        },
+        {
+          groupId: 999,
+          title: 'Repeating Event',
+          start: '2019-03-16T16:00:00'
+        },
+        {
+          title: 'Conference',
+          start: '2019-04-11',
+          end: '2019-03-13'
+        },
+        {
+          title: 'Meeting',
+          start: '2019-03-12T10:30:00',
+          end: '2019-03-12T12:30:00'
+        },
+        {
+          title: 'Lunch',
+          start: '2019-04-12T12:00:00'
+        },
+        {
+          title: 'Meeting',
+          start: '2019-04-12T14:30:00'
+        },
+        {
+          title: 'Happy Hour',
+          start: '2019-04-12T17:30:00'
+        },
+        {
+          title: 'Dinner',
+          start: '2019-04-12T20:00:00'
+        },
+        {
+          title: 'Birthday Party',
+          start: '2019-03-13T07:00:00'
+        },
+        {
+          title: 'Click for Google',
+          url: 'http://google.com/',
+          start: '2019-03-28'
+        }
+      ]
+    });
+
+    calendar.render();
+  });
+
+</script>
+<style>
+
+  body {
+    margin: 40px 10px;
+    padding: 0;
+    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+    font-size: 14px;
+  }
+
+  #loading {
+    display: none;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+
+  #calendar {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+
+</style>
+</head>
+<body>
+
+  <div id='loading'>loading...</div>
+
+  <div id='calendar'></div>
+
+    
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    
+    
+    <footer>
+                    <div align="center">
+                    <h1>Contactanos:</h1>
+                    <br>
+                    <h3>Unid Sede Tijuana: (664) 623-27-12</h3>
+                    </div>
+
+       <div class="container-footer-all">
+        
+            <div class="container-body">
+
+                <div align="center" class="colum2">
+                    <p>Cordinacion Academica: Ext.113</p>
+                    <br>
+                    <p>Servicios Escolares: Ext.160</p>
+                    <br>
+                    <p>Vinculacion Academica: Ext.110</p>
+
+
+                </div>
+
+                <div align="center" class="colum3">
+
+                    <p>Area de Promocion: Ext.101-116</p>
+                    <br>
+                    <p>Area Administrativa: Ext.170</p>
+                    <br>
+                    <p>Direccion: Ext.150</p>
+
+
+                </div>
+
+            </div>
+        
+        </div>
+        
+        <div  class="container-footer">
+               <div  class="footer">
+                    <div class="row">
+                       <a href="https://www.facebook.com/Red.UNID/"><img src="icon/facebook.png"></a> 
+                        
+                        <label>FACEBOOK</label>
+                        
+                    </div>
+
+                    <div class="row">
+                        <a href="https://autoservicios.banner.unid.mx/UNID/twbkwbis.P_WWWLogin/"><img src="icon/Banner.png"></a>
+                        <label>BANNER</label>
+                    </div>
+                    <div class="row">
+                        <a href="https://twitter.com/RedUNID/"><img src="icon/Twitter.png"></a>
+                        <label>TWITTER</label>
+                    </div>
+                    <div class="row">
+                        <a href="https://www.instagram.com/RedUNID/"><img src="icon/Instagram.png"></a>
+                        <label>INSTAGRAM </label>
+                    </div>
+                    <div class="row">
+                        <a href="https://www.youtube.com/user/RedUNID"><img src="icon/youtube.png"></a>
+                        <label>YOUTUBE</label>
+                    </div>
+
+
+                </div>
+
+            </div>
+        
+    </footer>
+    
+</body>
+</html>
