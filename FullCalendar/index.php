@@ -373,27 +373,27 @@ $events = $req->fetchAll();
                    
                     <div class="row2">
                         
-                       <a href="https://www.facebook.com/Red.UNID/"><img src="icon/facebook.png"></a> 
+                       <a href="https://www.facebook.com/Red.UNID/"  target="_blank"><img src="icon/facebook.png"></a> 
                         
                         <label>   </label>
                         
                     </div>
 
                     <div class="row2">
-                        <a href="https://autoservicios.banner.unid.mx/UNID/twbkwbis.P_WWWLogin/"><img src="icon/Banner.png"></a>
+                        <a href="https://autoservicios.banner.unid.mx/UNID/twbkwbis.P_WWWLogin/"  target="_blank"><img src="icon/Banner.png"></a>
                         <label>  </label>
                     </div>
                     <div class="row2">
-                        <a href="https://twitter.com/RedUNID/"><img src="icon/Twitter.png"></a>
+                        <a href="https://twitter.com/RedUNID/"  target="_blank"><img src="icon/Twitter.png"></a>
                         <label>  </label>
                     </div>
                     <div class="row2">
-                        <a href="https://www.instagram.com/RedUNID/"><img src="icon/Instagram.png"></a>
+                        <a href="https://www.instagram.com/RedUNID/"  target="_blank"><img src="icon/Instagram.png"></a>
                         <label>  </label>
                     </div>
                  
                     <div class="row2">
-                        <a href="https://www.youtube.com/user/RedUNID"><img src="icon/youtube.png"></a>
+                        <a href="https://www.youtube.com/user/RedUNID"  target="_blank"><img src="icon/youtube.png"></a>
                         <label>  </label>
                     </div>
 
